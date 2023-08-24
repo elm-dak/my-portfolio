@@ -1,0 +1,112 @@
+.services {
+
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 90vh;
+    margin-bottom: 8rem;
+    margin-top: 9rem;
+    margin-bottom: 13rem;
+}
+.awesome{
+display: flex;
+flex-direction: column;
+position: relative;
+}
+.awesome > :nth-child(1){
+    color: var(--black);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.awesome > :nth-child(2){
+    color: var(--blue);
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+.awesome > :nth-child(3){
+    color: var(--gray);
+    font-size: 14px;
+    margin-top: 1rem;
+}
+
+.s-button {
+    width: 9rem;
+    height: 2rem;
+    margin-top: 1rem;
+}
+.cards{
+    position: relative;
+}
+    .cards>*{
+    position: absolute;
+    }   
+.s-blur2{
+    left: 14rem;
+    top: 8rem;
+}
+.s-blur1{
+    left: 13rem;
+    top: -18rem;
+}
+@media screen and (max-width: 480px){
+    .services{
+        margin-top: 0;
+        flex-direction: column;
+        gap: 5rem;
+        height: 66rem;
+        padding: 0;
+    }
+    .cards{
+        display: flex;
+        flex-direction: column;
+        gap: 17rem;
+    }
+    .cards>*{
+        position: static;
+    }
+}
+@media screen and (max-width: 760px) {
+    .services {
+      margin-top: 0;
+      flex-direction: column;
+      gap: 5rem;
+      height: 66rem;
+      padding: 0;
+    }
+  
+    .awesome > :nth-child(1),
+    .awesome > :nth-child(2) {
+      font-size: 2rem;
+    }
+  
+    .awesome > :nth-child(3) {
+      font-size: 12px;
+      margin-top: 0.5rem;
+    }
+  
+    .s-button {
+      width: 8rem;
+      height: 2rem;
+      margin-top: 1rem;
+    }
+  
+    .cards {
+      display: flex;
+      flex-direction: column;
+      gap: 20rem;
+      left: -4rem;
+    }
+  
+    .cards > * {
+      position: static;
+    }
+  
+    .s-blur1 {
+      left: 6rem;
+      top: -12rem;
+    }
+  
+    .s-blur2 {
+      left: 7rem;
+      top: 6rem;
+    }
+  }

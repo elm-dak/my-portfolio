@@ -1,0 +1,70 @@
+.contact-form{
+    padding: 0 3rem 0 3rem;
+    display: flex;
+    height: 80vh;
+    margin-top: 4rem;
+}
+
+.c-right{
+    display: flex;
+    justify-content: center;
+    position: relative;
+    flex: 1;
+}
+.c-right>form{
+    display: flex;
+   flex-direction: column;
+   gap: 2rem;
+   align-items: center;
+
+}
+
+.c-right .user{
+    width: 20rem;
+    height: 2rem;
+    padding: 0.3rem;
+    outline: none;
+    border: 2px solid var(--blue);
+    border-radius: 8px;
+    font-size: 16px;
+
+}
+
+textarea{
+    height: 4rem!important;
+}
+.c-blur1{
+    top: 1rem;
+    left: 8rem;
+}
+@media screen and (max-width: 480px){
+    .contact-form {
+        padding: 0;
+        }
+        
+        .c-right {
+        flex-direction: column; /* Stack form items vertically */
+        align-items: center; /* Center form items horizontally */
+        }
+        
+        .c-right > form {
+        width: 80%; /* Make the form wider to fill the screen better */
+        padding: 1rem; /* Add some padding for spacing */
+        }
+        
+        .c-right .user {
+        width: 100%; /* Make input fields full width */
+        max-width: 100%; /* Prevent input fields from exceeding the screen width */
+        }
+        
+        textarea {
+        height: auto !important; /* Let the textarea height adjust to content */
+        resize: vertical; /* Allow vertical resizing */
+        }
+        
+        .button {
+        width: 100%; /* Make the button full width */
+        max-width: 100%; /* Prevent button from exceeding the screen width */
+        }
+    
+}
