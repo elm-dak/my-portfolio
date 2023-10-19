@@ -27,19 +27,29 @@ const Portfolio = () => {
         className='porfolio-slider'
         >
             <SwiperSlide>
-                <img src={Sidebar} alt="" />
+                <a href="" target="_blank">
+                <img src={Sidebar} alt=""/>
+                </a>
             </SwiperSlide>
             <SwiperSlide>
+                 <a href="" target="_blank">
                 <img src={Ecommerce} alt="" />
+                </a>
             </SwiperSlide>
             <SwiperSlide>
+                 <a href="https://github.com/elm-dak/DE-nft.git" target="_blank">     
                 <img src={MusicApp} alt="" />
+                </a>
             </SwiperSlide>
             <SwiperSlide>
+                 <a href="https://github.com/elm-dak/Daily-a-worker.git" target="_blank">
                 <img src={Music5} alt="" />
+                </a>
             </SwiperSlide>
             <SwiperSlide>
+                  <a href="https://github.com/elm-dak/booking-hotel.git" target="_blank"> 
                 <img src={HOC} alt="" />
+                </a>
             </SwiperSlide>
 
         </Swiper>

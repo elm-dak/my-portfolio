@@ -37,7 +37,7 @@ const Service = () => {
     <div className="services" id='Services'>
       <div className="awesome">
         <span style={{ color: darkMode ? 'white' : '' }}>My Awesome</span>
-        <span>Services</span>
+        <span>Experience</span>
         <spane>
           Take all project I am competent and capable of handling projects  
           both independently<br/> and within a team. 
@@ -62,15 +62,15 @@ const Service = () => {
           <Card  
             emoji={Glasses}
             heading={'Software Engineering'}
-            detail={"C, C++, Php, Python, MySQL, SQL/PL, SQL/TR"}
+            detail={"C, C++, Php, Python, MySQL, SQL/TR, JAVA, Symfony , .NET"}
           />
         </animated.div>
 
         <animated.div style={uiuxAnimation}>
           <Card  
             emoji={Humble}
-            heading={'Developer'}
-            detail={"Html, Css, JavaScript, React, Symfony"}
+            heading={'Machine learning'}
+            detail={"Data Preprocessing and Cleaning, Libraries and Frameworks ,algorithms,(NLP),calculus"}
           />
         </animated.div>
 

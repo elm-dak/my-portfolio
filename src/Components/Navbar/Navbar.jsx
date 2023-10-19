@@ -18,13 +18,13 @@ const Navbar = () => {
                     <li>Home</li>
                     </Link>
                     <Link spy={true} to='Services' smooth={true} activeClass="activeClass">
-                    <li>Services</li>
-                    </Link>
-                    <Link spy={true} to='Experience' smooth={true} activeClass="activeClass">
                     <li>Experience</li>
                     </Link>
                     <Link spy={true} to='Portfolio' smooth={true} activeClass="activeClass">
                     <li>Portfolio</li>
+                    </Link>
+                    <Link spy={true} to='certif' smooth={true} activeClass="activeClass">
+                    <li>Certifcate</li>
                     </Link>
                     <Link spy={true} to='Testimonials' smooth={true} activeClass="activeClass">
                     <li>Testimonials</li>
