@@ -6,7 +6,7 @@ import Humble from "../../img/humble.png";
 import Card from '../Card/Card';
 import { themeContext } from '../../Context';
 import { useContext } from "react";
-import resum from './resum.pdf';
+import resume from './resume.pdf';
 import { useSpring, animated } from "react-spring";
 
 const Service = () => {
@@ -43,7 +43,7 @@ const Service = () => {
           both independently<br/> and within a team. 
           <br/>I effectively manage them with creativity and adaptability.
         </spane>
-        <a href={resum} download>
+        <a href={resume} download>
           <button className="button s-button">Download CV</button>
         </a>
         <div className="blur s-blur1" style={{ background: "#ABF1FF94" }}></div>
