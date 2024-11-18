@@ -1,0 +1,38 @@
+{
+  "files": {
+    "main.css": "/my-portfolio/static/css/main.5bf98037.css",
+    "main.js": "/my-portfolio/static/js/main.df24e961.js",
+    "static/media/5.png": "/my-portfolio/static/media/5.7e69e27a88ab2d6f3703.png",
+    "static/media/4.png": "/my-portfolio/static/media/4.f2825614aebf809204ea.png",
+    "static/media/c4.png": "/my-portfolio/static/media/c4.871739bf686cabe553fc.png",
+    "static/media/c1.png": "/my-portfolio/static/media/c1.8085942130a2ab0ebf58.png",
+    "static/media/c5.png": "/my-portfolio/static/media/c5.1a025ac3690104a42ce8.png",
+    "static/media/c3.png": "/my-portfolio/static/media/c3.737632677a948fa2ce9b.png",
+    "static/media/c2.png": "/my-portfolio/static/media/c2.5a10f959c117e42bb2d6.png",
+    "static/media/resume.pdf": "/my-portfolio/static/media/resume.108526c323a79cb5f549.pdf",
+    "static/media/me.png": "/my-portfolio/static/media/me.2f9a73ee4bbf70b0506a.png",
+    "static/media/c6.png": "/my-portfolio/static/media/c6.199a66580eac26d298e7.png",
+    "static/media/3.png": "/my-portfolio/static/media/3.87f2ebca07b720f6b08b.png",
+    "static/media/1.png": "/my-portfolio/static/media/1.e0377f13d9e0531db678.png",
+    "static/media/angular.png": "/my-portfolio/static/media/angular.a01844b7a030994ea86b.png",
+    "static/media/glassesimoji.png": "/my-portfolio/static/media/glassesimoji.a08bdab12e8eb56a6874.png",
+    "static/media/2.png": "/my-portfolio/static/media/2.3dff3dfa176372f4f101.png",
+    "static/media/springboot.png": "/my-portfolio/static/media/springboot.e024add997f46612da6f.png",
+    "static/media/wave.png": "/my-portfolio/static/media/wave.c7bd7fb46ba9836c04ec.png",
+    "static/media/Vector2.png": "/my-portfolio/static/media/Vector2.777fddff7dc0e2331a0f.png",
+    "static/media/python.png": "/my-portfolio/static/media/python.b7d1e2542d139e7a1fdb.png",
+    "static/media/humble.png": "/my-portfolio/static/media/humble.c8b32b53675e68978981.png",
+    "static/media/heartemoji.png": "/my-portfolio/static/media/heartemoji.26b1b6ed5e0e44083b28.png",
+    "static/media/microsoft-net.png": "/my-portfolio/static/media/microsoft-net.595bdccad04771d363f8.png",
+    "static/media/thumbup.png": "/my-portfolio/static/media/thumbup.d5ff0ab60d2db83f154b.png",
+    "static/media/glasses.png": "/my-portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
+    "static/media/devops.png": "/my-portfolio/static/media/devops.8a223dcb072efdac2af7.png",
+    "index.html": "/my-portfolio/index.html",
+    "main.5bf98037.css.map": "/my-portfolio/static/css/main.5bf98037.css.map",
+    "main.df24e961.js.map": "/my-portfolio/static/js/main.df24e961.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.5bf98037.css",
+    "static/js/main.df24e961.js"
+  ]
+}
