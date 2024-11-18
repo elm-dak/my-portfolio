@@ -5,6 +5,9 @@ import Net from "../../img/microsoft-net.png";
 import Symfony from "../../img/symfony.png";
 import Tensor from "../../img/tensor.png";
 import Scikit from "../../img/scikit.png";
+import Python from "../../img/python.png";
+import Springboot from "../../img/springboot.png";
+import Angular from "../../img/angular.png";
 import { themeContext } from '../../Context';
 import { useContext} from "react";
 import { useSpring, animated } from "react-spring";
@@ -30,17 +33,25 @@ const Works = () => {
     <div className="works">
           <div className="awesome">
             <span style={{color: darkMode? 'white': ''}}>All I Used</span>
-            <span>Frameworks & Libraries</span>
-            <spane> I have utilized frameworks such as Symfony, .NET,
-                <br/>
-                and Django, alongside Bootstrap for frontend development.
-                <br/>
-                Furthermore, in the realm of machine learning, 
-                <br/>
-                I have worked with libraries including NumPy, Pandas,
+            <span>Languages & Frameworks</span>
+            
+            <spane>
+               I have utilized frameworks such as Spring Boot, .NET Core, 
                <br/>
-               Scikit-learn, Metapolit, NLTK, and TensorFlow.
+               and Express.js, alongside Bootstrap and React for frontend development.
+               <br/>
+               Furthermore, in the realm of DevOps, 
+               <br/>
+               I have worked with tools and libraries including Terraform, Ansible, 
+               <br/>
+               Docker, Kubernetes, and Jenkins.
+               <br/>
+               In Data Engineering, I have experience with frameworks such as Apache Spark 
+               <br/>
+               and Hadoop, and libraries like Pandas, NumPy, dbt, and PySpark.
             </spane>
+
+
             
               <button className="button s-button" onClick={handleEmailClick}>Talk Me</button>
            
@@ -55,17 +66,18 @@ const Works = () => {
                    <img src={DevOps} alt="" />
                 </div>
                 <div className="w-secCircle">
-                   <img src={Net} alt="" />
+                   <img src={Python} alt="" />
                 </div>
                 <div className="w-secCircle">
-                   <img src={Symfony} alt="" />
+                   <img src={Springboot} alt=""  style={{ width: '150px', height: '150px' }} />
                 </div>
                 <div className="w-secCircle">
                    <img src={Tensor} alt="" />
                 </div>
                 <div className="w-secCircle">
-                   <img src={Scikit} alt="" />
-                </div>
+                  <img src={Angular} alt="" style={{ width: '150px', height: '150px' }} />
+               </div>
+
                 </animated.div>
                
 

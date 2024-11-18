@@ -62,9 +62,9 @@ const Intro = () => {
   <div className="i-left">
       <div className="i-name">
           <span style={{color : darkMode? 'white': ''}}>Hy! I Am </span>
-          <span>Dakouky ElMestapha</span>
+          <span>Dakouky El Mestapha</span>
           <span>As a student, I am proficient 
-            in Software Engineering and Machine Learning,
+            in Software Engineering and Data Engineering,
              with a strong foundation in 
              web design and development. </span>
       </div>
@@ -100,7 +100,7 @@ const Intro = () => {
   className="floating-div"
    style={webDevAnimation}
     >
-    <FloatingDiv image={Crown} txt1='Machine ' txt2='learning' />
+    <FloatingDiv image={Crown} txt1='Data ' txt2='Engineering' />
   </animated.div>
   <animated.div   style={bestDesignAnimation}
   className="floating-div"

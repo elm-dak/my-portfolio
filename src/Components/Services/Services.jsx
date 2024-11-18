@@ -51,27 +51,27 @@ const Service = () => {
 
       <div className="cards">
       <animated.div style={glassesAnimation}>
-          <Card  
-            emoji={HeartEmoji}
-            heading={'Design'}
-            detail={"Figma, Adobe xd, Sketch, Photoshop"}
-          />
+              <Card  
+            emoji={Glasses}
+            heading={'Software Engineering'}
+            detail={"JEE, Angular, MERN, PHP, Python, MySQL, SQL, Java, Symfony, .NET"}
+        />
         </animated.div>
 
         <animated.div style={webDevAnimation}>
-          <Card  
-            emoji={Glasses}
-            heading={'Software Engineering'}
-            detail={"C, C++, Php, Python, MySQL, SQL/TR, JAVA, Symfony , .NET"}
+              <Card  
+              emoji={Humble}
+              heading={'DevOps Engineering'}
+              detail={"Terraform, Docker, Jenkins, Git, Kubernetes, Azure, AWS"}
           />
         </animated.div>
 
         <animated.div style={uiuxAnimation}>
-          <Card  
-            emoji={Humble}
-            heading={'Machine learning'}
-            detail={"Data Preprocessing and Cleaning, Libraries and Frameworks ,algorithms,(NLP),calculus"}
-          />
+                <Card  
+                emoji={Humble}
+                heading={'Data Engineering'}
+                detail={"Hadoop, MongoDB, ETL, Apache Airflow, Apache Spark"}
+            />
         </animated.div>
 
         <div className="blur s-blur2" style={{ background: "var(--purple)" }}></div>

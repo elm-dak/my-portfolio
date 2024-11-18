@@ -1,6 +1,7 @@
 import React from 'react'
 import './Certif.css'
 import {Swiper, SwiperSlide} from 'swiper/react'
+import Terrafrom from "../../img/c6.png";
 import Sidebar from "../../img/c1.png";
 import Ecommerce from "../../img/c2.png";
 import HOC from "../../img/c3.png";
@@ -26,6 +27,9 @@ const Certif = () => {
         grabCursor={true}
         className='certif-slider'
         >
+             <SwiperSlide>
+                <img src={Terrafrom} alt="" />
+            </SwiperSlide>
             <SwiperSlide>
                 <img src={Sidebar} alt="" />
             </SwiperSlide>
