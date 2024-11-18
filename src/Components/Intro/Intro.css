@@ -164,9 +164,9 @@
     }
   
     .i-right>:nth-child(3) {
-      transform: scale(0.5);
-      left: -12rem;
-      top: -23rem;
+      transform: scale(1.5);
+      left: -1rem;
+      top: -1rem;
     }
   
     .i-right .blur {
