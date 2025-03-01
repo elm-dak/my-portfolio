@@ -1,15 +1,15 @@
 {
   "files": {
-    "main.css": "/my-portfolio/static/css/main.5bf98037.css",
-    "main.js": "/my-portfolio/static/js/main.df24e961.js",
+    "main.css": "/my-portfolio/static/css/main.25321478.css",
+    "main.js": "/my-portfolio/static/js/main.5295f8eb.js",
     "static/media/5.png": "/my-portfolio/static/media/5.7e69e27a88ab2d6f3703.png",
+    "static/media/resume.pdf": "/my-portfolio/static/media/resume.61932d7b6ae4012ba39f.pdf",
     "static/media/4.png": "/my-portfolio/static/media/4.f2825614aebf809204ea.png",
     "static/media/c4.png": "/my-portfolio/static/media/c4.871739bf686cabe553fc.png",
     "static/media/c1.png": "/my-portfolio/static/media/c1.8085942130a2ab0ebf58.png",
     "static/media/c5.png": "/my-portfolio/static/media/c5.1a025ac3690104a42ce8.png",
     "static/media/c3.png": "/my-portfolio/static/media/c3.737632677a948fa2ce9b.png",
     "static/media/c2.png": "/my-portfolio/static/media/c2.5a10f959c117e42bb2d6.png",
-    "static/media/resume.pdf": "/my-portfolio/static/media/resume.108526c323a79cb5f549.pdf",
     "static/media/me.png": "/my-portfolio/static/media/me.2f9a73ee4bbf70b0506a.png",
     "static/media/c6.png": "/my-portfolio/static/media/c6.199a66580eac26d298e7.png",
     "static/media/3.png": "/my-portfolio/static/media/3.87f2ebca07b720f6b08b.png",
@@ -28,11 +28,11 @@
     "static/media/glasses.png": "/my-portfolio/static/media/glasses.71d7c1b0ff0b870a9d7d.png",
     "static/media/devops.png": "/my-portfolio/static/media/devops.8a223dcb072efdac2af7.png",
     "index.html": "/my-portfolio/index.html",
-    "main.5bf98037.css.map": "/my-portfolio/static/css/main.5bf98037.css.map",
-    "main.df24e961.js.map": "/my-portfolio/static/js/main.df24e961.js.map"
+    "main.25321478.css.map": "/my-portfolio/static/css/main.25321478.css.map",
+    "main.5295f8eb.js.map": "/my-portfolio/static/js/main.5295f8eb.js.map"
   },
   "entrypoints": [
-    "static/css/main.5bf98037.css",
-    "static/js/main.df24e961.js"
+    "static/css/main.25321478.css",
+    "static/js/main.5295f8eb.js"
   ]
 }
