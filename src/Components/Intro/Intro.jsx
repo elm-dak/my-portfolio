@@ -63,10 +63,11 @@ const Intro = () => {
       <div className="i-name">
           <span style={{color : darkMode? 'white': ''}}>Hy! I Am </span>
           <span>Dakouky El Mestapha</span>
-          <span>As a student, I am proficient 
-            in Software Engineering and Data Engineering,
-             with a strong foundation in 
-             web design and development. </span>
+          <span>
+            Software and Data Engineer passionate about creating smart web and AI-driven applications. 
+            Recently graduated with an engineering diploma, 
+            ready to turn ideas into impactful solutions.
+          </span>
       </div>
 
       <button className="button i-button" onClick={handleEmailClick}>
